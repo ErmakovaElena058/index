@@ -1,8 +1,8 @@
 public class IndexWeightBody {
 
-    public int calculate(int weight, int growth) {
-        int growthMetrDouble = growth / 100 * 2;
-        int result = weight / growthMetrDouble;
-    return result;
+    public double calculate(int weight, int growth) {
+        double growthDouble = (growth / 100) * (growth / 100);
+        double result = weight / growthDouble;
+        return result;
     }
 }
